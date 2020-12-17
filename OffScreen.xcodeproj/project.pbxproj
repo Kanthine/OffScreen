@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A14BD442589EF0B00AF7C34 /* UIButton+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A14BD362589EF0B00AF7C34 /* UIButton+Extend.m */; };
+		1A14BD452589EF0B00AF7C34 /* NSObject+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A14BD372589EF0B00AF7C34 /* NSObject+Extend.m */; };
+		1A14BD462589EF0B00AF7C34 /* UIImageView+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A14BD3E2589EF0B00AF7C34 /* UIImageView+Extend.m */; };
+		1A14BD472589EF0B00AF7C34 /* NSArray+CrashHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A14BD3F2589EF0B00AF7C34 /* NSArray+CrashHandler.m */; };
+		1A14BD482589EF0B00AF7C34 /* UIImage+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A14BD402589EF0B00AF7C34 /* UIImage+Extend.m */; };
+		1A14BD492589EF0B00AF7C34 /* NSString+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A14BD422589EF0B00AF7C34 /* NSString+Extend.m */; };
+		1A14BD4A2589EF0B00AF7C34 /* UISearchBar+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A14BD432589EF0B00AF7C34 /* UISearchBar+Extend.m */; };
 		1A3FB586257F63110063CC46 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A3FB585257F63110063CC46 /* AppDelegate.m */; };
 		1A3FB589257F63110063CC46 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A3FB588257F63110063CC46 /* SceneDelegate.m */; };
 		1A3FB58C257F63110063CC46 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A3FB58B257F63110063CC46 /* ViewController.m */; };
@@ -17,6 +24,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A14BD362589EF0B00AF7C34 /* UIButton+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Extend.m"; sourceTree = "<group>"; };
+		1A14BD372589EF0B00AF7C34 /* NSObject+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Extend.m"; sourceTree = "<group>"; };
+		1A14BD382589EF0B00AF7C34 /* UIImage+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extend.h"; sourceTree = "<group>"; };
+		1A14BD392589EF0B00AF7C34 /* NSArray+CrashHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+CrashHandler.h"; sourceTree = "<group>"; };
+		1A14BD3A2589EF0B00AF7C34 /* UIImageView+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Extend.h"; sourceTree = "<group>"; };
+		1A14BD3B2589EF0B00AF7C34 /* UISearchBar+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UISearchBar+Extend.h"; sourceTree = "<group>"; };
+		1A14BD3C2589EF0B00AF7C34 /* NSString+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extend.h"; sourceTree = "<group>"; };
+		1A14BD3D2589EF0B00AF7C34 /* UIButton+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Extend.h"; sourceTree = "<group>"; };
+		1A14BD3E2589EF0B00AF7C34 /* UIImageView+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Extend.m"; sourceTree = "<group>"; };
+		1A14BD3F2589EF0B00AF7C34 /* NSArray+CrashHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+CrashHandler.m"; sourceTree = "<group>"; };
+		1A14BD402589EF0B00AF7C34 /* UIImage+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extend.m"; sourceTree = "<group>"; };
+		1A14BD412589EF0B00AF7C34 /* NSObject+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Extend.h"; sourceTree = "<group>"; };
+		1A14BD422589EF0B00AF7C34 /* NSString+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extend.m"; sourceTree = "<group>"; };
+		1A14BD432589EF0B00AF7C34 /* UISearchBar+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UISearchBar+Extend.m"; sourceTree = "<group>"; };
 		1A3FB581257F63110063CC46 /* OffScreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OffScreen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A3FB584257F63110063CC46 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1A3FB585257F63110063CC46 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -42,6 +63,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A14BD352589EF0B00AF7C34 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				1A14BD392589EF0B00AF7C34 /* NSArray+CrashHandler.h */,
+				1A14BD3F2589EF0B00AF7C34 /* NSArray+CrashHandler.m */,
+				1A14BD412589EF0B00AF7C34 /* NSObject+Extend.h */,
+				1A14BD372589EF0B00AF7C34 /* NSObject+Extend.m */,
+				1A14BD3C2589EF0B00AF7C34 /* NSString+Extend.h */,
+				1A14BD422589EF0B00AF7C34 /* NSString+Extend.m */,
+				1A14BD3D2589EF0B00AF7C34 /* UIButton+Extend.h */,
+				1A14BD362589EF0B00AF7C34 /* UIButton+Extend.m */,
+				1A14BD382589EF0B00AF7C34 /* UIImage+Extend.h */,
+				1A14BD402589EF0B00AF7C34 /* UIImage+Extend.m */,
+				1A14BD3A2589EF0B00AF7C34 /* UIImageView+Extend.h */,
+				1A14BD3E2589EF0B00AF7C34 /* UIImageView+Extend.m */,
+				1A14BD3B2589EF0B00AF7C34 /* UISearchBar+Extend.h */,
+				1A14BD432589EF0B00AF7C34 /* UISearchBar+Extend.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
 		1A3FB578257F63110063CC46 = {
 			isa = PBXGroup;
 			children = (
@@ -67,6 +109,7 @@
 				1A3FB588257F63110063CC46 /* SceneDelegate.m */,
 				1A3FB58A257F63110063CC46 /* ViewController.h */,
 				1A3FB58B257F63110063CC46 /* ViewController.m */,
+				1A14BD352589EF0B00AF7C34 /* Category */,
 				1A3FB58D257F63110063CC46 /* Main.storyboard */,
 				1A3FB590257F63130063CC46 /* Assets.xcassets */,
 				1A3FB592257F63130063CC46 /* LaunchScreen.storyboard */,
@@ -145,10 +188,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A14BD4A2589EF0B00AF7C34 /* UISearchBar+Extend.m in Sources */,
+				1A14BD462589EF0B00AF7C34 /* UIImageView+Extend.m in Sources */,
+				1A14BD442589EF0B00AF7C34 /* UIButton+Extend.m in Sources */,
+				1A14BD482589EF0B00AF7C34 /* UIImage+Extend.m in Sources */,
 				1A3FB58C257F63110063CC46 /* ViewController.m in Sources */,
+				1A14BD472589EF0B00AF7C34 /* NSArray+CrashHandler.m in Sources */,
 				1A3FB586257F63110063CC46 /* AppDelegate.m in Sources */,
+				1A14BD452589EF0B00AF7C34 /* NSObject+Extend.m in Sources */,
 				1A3FB597257F63130063CC46 /* main.m in Sources */,
 				1A3FB589257F63110063CC46 /* SceneDelegate.m in Sources */,
+				1A14BD492589EF0B00AF7C34 /* NSString+Extend.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

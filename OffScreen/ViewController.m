@@ -6,6 +6,7 @@
 //
 
 #import "ViewController.h"
+#import "UIImageView+Extend.h"
 
 @interface ViewController ()
 
@@ -46,35 +47,13 @@
         imageView_1.layer.mask = maskLayer;
         [self.view addSubview:imageView_1];
     }
-        
+    
     UIImageView *imageView_2 = [[UIImageView alloc] initWithFrame:CGRectMake(20, 400, 100, 100)];
     imageView_2.image = [UIImage imageNamed:@"Image"];
-    [self drawCornerRadiusView:imageView_2];
+    [imageView_2 clipsLayerWithCornerRadius:30];
     [self.view addSubview:imageView_2];
 }
 
-- (void)drawCornerRadiusView:(UIImageView *)imageview{
-    UIGraphicsBeginImageContextWithOptions(imageview.bounds.size, NO, [UIScreen mainScreen].scale);
-    [[UIBezierPath bezierPathWithRoundedRect:imageview.bounds cornerRadius:imageview.bounds.size.height] addClip];
-    [imageview drawRect:imageview.bounds];
-    imageview.image = UIGraphicsGetImageFromCurrentImageContext();
-    UIGraphicsEndImageContext();
-}
 
-- (void)drawCornerRadiusImage:(UIImageView *)imageview{
-    UIGraphicsBeginImageContextWithOptions(imageview.bounds.size, NO, 1);
-    [[UIBezierPath bezierPathWithRoundedRect:imageview.bounds byRoundingCorners:UIRectCornerTopLeft cornerRadii:CGSizeMake(30, 30)] addClip];
-    [imageview drawRect:CGRectMake(0, 0, 100, 100)];
-    imageview.image = UIGraphicsGetImageFromCurrentImageContext();
-    UIGraphicsEndImageContext();
-}
 
-/** 叠加图层的二次处理，引起离屏渲染的操作：
- *  切圆角 layer.cornerRadius、
- *  改变透明度 layer.opacity
- *  使用了 layer.mask
- *  layer.shadow
- *  layer.shouldRasterize = YES
- *  绘制了文字的 layer (UILabel, CATextLayer, CoreText 等)
- */
 @end
